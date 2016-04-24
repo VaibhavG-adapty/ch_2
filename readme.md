@@ -14,3 +14,12 @@ If you go to the `browserify` example, you can start to load the pages with a st
 Now, you can open a browser and play with the Backbone models from the web browser
 
 ![dev console tag](https://github.com/pipefishbook/ch_2/blob/master/dev_console.png)
+
+For example, you could `get` and `set` attributes of a model with:
+
+    > app = require('app');
+    > movie = app.models[0]
+       Object {id: 1, title: "The Artist", year: 0, description: "empty", selected: false}
+    > movie.get('title'); 
+       "The Artist"
+
