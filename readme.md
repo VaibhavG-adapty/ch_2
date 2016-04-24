@@ -13,4 +13,4 @@ If you go to the `browserify` example, you can start to load the pages with a st
 
 Now, you can open a browser and play with the Backbone models from the web browser
 
-![dev console tag](https://raw.githubusercontent.compipefishbook/ch_2/master/dev_console.png)
+![dev console tag](https://github.com/pipefishbook/ch_2/blob/master/dev_console.png)
