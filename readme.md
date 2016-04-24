@@ -3,9 +3,9 @@
 Get a feeling for working with Backbone.js modules in the browser.
 
 In this repository, there are two examples provided:
-* start: This is an empty application providing minimum stylesheet and HTML to start prototyping. The main JavaScript application including its dependencies are not yet given. This is shown in the other directory.
+* start: This is an empty application providing minimum stylesheet and HTML to start prototyping and to follow the examples in the book. 
 * browserify: In this example, some Backbone models and collections are packaged with Browserify. Also, it uses JSON data that you can use to explore data in the browser.
-* bb-attributes: This examples shows how attributes can be associated with a Backbone collection 
+* bb-attributes: This example shows how attributes can be associated with a Backbone collection 
 
 When you want to follow the examples of the book, go to the "start" folder. Otherwise go to the `browserify` example. There, you can start the application with a static web server, such as super static:
 
