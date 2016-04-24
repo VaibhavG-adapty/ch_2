@@ -17,8 +17,8 @@ Now, you can open a browser and play with the Backbone models from the web brows
 
 For example, you could `get` and `set` attributes of a model with:
 
-    > app = require('app');
-    > movie = app.models[0]
+    > movies = require('app');
+    > movie = movies.get(1);
        Object {id: 1, title: "The Artist", year: 0, description: "empty", selected: false}
     > movie.get('title'); 
        "The Artist"
